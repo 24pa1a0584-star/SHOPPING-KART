@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <defs>
+    <linearGradient id="lumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7444FF" />
+      <stop offset="50%" stop-color="#FF6B67" />
+      <stop offset="100%" stop-color="#25CBB8" />
+    </linearGradient>
+  </defs>
+  <!-- Icon Mark -->
+  <rect x="6" y="8" width="44" height="44" rx="12" fill="#14152D" />
+  <path d="M20 18C20 16.8954 20.8954 16 22 16H25C26.1046 16 27 16.8954 27 18V34H36C37.1046 34 38 34.8954 38 36V39C38 40.1046 37.1046 41 36 41H22C20.8954 41 20 40.1046 20 39V18Z" fill="url(#lumGrad)" />
+  <circle cx="36" cy="22" r="3.5" fill="#C7F464" />
+  <circle cx="32" cy="28" r="2" fill="#25CBB8" />
+
+  <!-- Typography -->
+  <text x="62" y="38" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="28" letter-spacing="1.5" fill="#14152D">LUMORA</text>
+  <circle cx="198" cy="26" r="3" fill="#FF6B67" />
+  
+  <!-- Subtitle Tagline -->
+  <text x="63" y="49" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="9" letter-spacing="1" fill="#7444FF">DISCOVER MORE. LOVE EVERY FIND.</text>
+</svg>

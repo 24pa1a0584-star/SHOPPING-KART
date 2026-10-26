@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="lumoraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7444FF" />
+      <stop offset="50%" stop-color="#FF6B67" />
+      <stop offset="100%" stop-color="#25CBB8" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="48" height="48" rx="14" fill="#14152D" />
+  <!-- Stylized L + Infinity Spark in Gradient -->
+  <path d="M14 13C14 11.8954 14.8954 11 16 11H20C21.1046 11 22 11.8954 22 13V27H32C33.1046 27 34 27.8954 34 29V33C34 34.1046 33.1046 35 32 35H16C14.8954 35 14 34.1046 14 33V13Z" fill="url(#lumoraGrad)" />
+  <circle cx="32" cy="16" r="4.5" fill="#C7F464" />
+  <circle cx="28" cy="22" r="2.5" fill="#25CBB8" />
+</svg>
